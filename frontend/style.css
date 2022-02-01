@@ -34,121 +34,10 @@
 
 /*css selector vége*/
 
- /* #root{
-
-      background-color: #45ff32;
-  }
-
-  .container.wrapper{
-
-    background-color: #131517;
-  }
-
-  #root .container .container.wrapper {
-
-      width: 200px;
-      height: 200px;
-
-  } */
-
-
-#cube1 {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 400px;
-    height: 400px;
-    background-color: #C208CC;
-    
-    
-}
-
-#cube2{
-    width: 380px;
-    height: 380px;
-    background-color: #790380;
-    
-    
-}
-
-#cube3 {
-    width: 360px;
-    height: 360px;
-    background-color: #FA78F8;
-   
-}
-
-#cube4{
-    width: 340px;
-    height: 340px;
-    background-color: #CC089E;
-   
-}
-
-#cube5 {
-    width: 320px;
-    height: 320px;
-    background-color: #E23FE8;
-    
-}
-
-
-#cube6{
-    width: 300px;
-    height: 300px;
-    background-color: #BB41F2;
-    
-}
-
-#cube7 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 280px;
-    height: 280px;
-    background-color: #8446DB;
-    
-}
-
-#cube8 {
-    width: 260px;
-    height: 260px;
-    background-color: #5B41F2;
-    
-}
-
-#cube9 {
-    width: 240px;
-    height: 240px;
-    background-color: #1D3DA8;
-    
-}
-
-#cube10 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 220px;
-    height: 220px;
-    background-color: #1D7CA8
-}
-
-#cube1 #cube2 #cube3 #cube4 #cube5 #cube6 #cube7 #cube8 #cube9 #cube10 {
-    width: 220px;
-    height: 220px;
-    background-color: #4F54A9;
-    
-}
-
-div {
-    margin: auto;
-}
+ 
 
 section{
-    position: relative;
-    width: 100%;
     height: 100vh;
-
     border-bottom: 1px solid black;
 }
 
@@ -159,5 +48,27 @@ section button{
 
     width: 200px;
     height: 60px;
-    background-color: #790380;
+    background-color: blueviolet;
+}
+
+section.imageholder img {
+    /*background-image: url(https://i.scdn.co/image/ab67616d0000b2730c5f23cbf0b1ab7e37d0dc67);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    
+}
+
+section.backgroundholder{
+    padding: 20px;
+    background-clip: content-box;
+    border: 10px solid rgba(15, 80, 95, 0.5);
+    background-image: url("aloneatprom.jpeg");
+    background-size: 200px 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: blueviolet;
 }
