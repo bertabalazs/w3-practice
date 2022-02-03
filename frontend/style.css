@@ -56,19 +56,131 @@ section.imageholder img {
     background-repeat: no-repeat;
     background-size: cover;*/
     display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 100%;
     height: 100vh;
-    object-fit: contain;
+    object-fit: cover;
     
+}
+
+section.imageholder{
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+section.imageholder button{
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 50%;
+  width: 200px; 
+  height: 60px;
+  border-radius: 50px;
+  margin: 40px 0;
+  transform: translateX(-50%);
+  background-color: blueviolet;
+  
+}
+
+section.imageholder h1{
+  font-size: 100px;
+  position: relative;
+  z-index: 1;
+  color: beige;
+  font-family:'Roboto Slab', serif;
+  margin: 40px;
+  
 }
 
 section.backgroundholder{
     padding: 20px;
     background-clip: content-box;
     border: 10px solid rgba(15, 80, 95, 0.5);
-    background-image: url("aloneatprom.jpeg");
+    /* background-image: url("aloneatprom.jpeg "); */
     background-size: 200px 200px;
     background-position: center center;
     background-repeat: no-repeat;
     background-color: blueviolet;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+    color: beige;
+    background-color: teal;
+}
+
+#welcome button{
+
+}
+
+#about {
+  min-height: unset;
+}
+
+#about article{
+  width: 100%;
+  max-width: 400px;
+  padding: 80px 20px;
+  margin: 0px auto;
+}
+
+#about h2 {
+  padding-bottom: 20px;
+}
+
+#services{ 
+  padding: 80px 0;
+  background-image: url(80s.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#services ul{
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  margin: 0px auto;
+  list-style: none;
+}
+
+#services ul li{
+  padding-bottom: 10px;
+}
+
+#services ul li h2,
+#services ul li p{
+  text-align: center;
+}
+
+#contact{
+  background-color: #1ea0a7;
+}
+
+#contact form{
+  width: 100px;
+  max-width: 300px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+#contact input,
+#contact label{
+  display: block;
+  width: 100%;
+
+}
+
+#contact label{
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+#contact input{
+  height: 60px;
+  font-size: 18px;
+  padding: 0 10px;
+  background-color: white;
 }
