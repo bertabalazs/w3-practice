@@ -106,11 +106,27 @@ section.backgroundholder{
     background-color: blueviolet;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Montserrat', sans-serif;
     color: beige;
     background-color: teal;
 }
+
+header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 99;
+  text-align: center;
+  background-color: #1ea0a7;
+}
+
 
 #welcome button{
 
